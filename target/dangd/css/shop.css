@@ -1,0 +1,134 @@
+#form {
+    float: right;
+    margin: 20px 0 0 0px;
+}
+#car {
+    font-family: "楷体";
+    font-size: 48px;
+    display: inline;
+    color: brown;
+}
+#seach1 {
+    height: 18px;
+    width: 300px;
+    border: 2px solid red;
+	outline: none;/* //去点击后的边框颜色 */
+}
+#bt1 {
+    height: 24px;
+    width: 49px;
+    margin: 0px 19px 0px -5px;
+    padding: 0px 0px 3px 4px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+#list div{
+	display: inline-block;
+	color: gray;
+}
+#_count{
+	color: red;
+	font-size: x-large;
+
+}
+#_count hr{
+border-color: red;
+margin: 0 0;
+}
+#list{    height: 40px;
+    background-color: lavenderblush;
+}
+#_all {
+    width: 99px;
+    /* height: 40px; */
+    margin: 20px 0;
+}
+.trade{width: 500px;}
+.quanlity{width: 100px;}
+.unit{width: 400px;}
+.delete{
+	width: 100px;
+}
+.div_1 div{
+	display: inline-block;
+}
+ul{
+	list-style: none;
+	display: inline-block;
+}
+ul li{
+	display: inline-block;
+}
+.div_1{
+	background-color: darkgray;
+	border: 1px solid azure;
+}
+.div_3 {
+	width: 200px;
+    margin: 0px 0 1px 13px;
+}
+.div_2{
+	width: 99px;
+	float: left;
+}
+.div_4{
+	width: 280px;
+    font-family: 楷体;
+    font-size: 20px;
+    color: darkcyan;
+}
+.div_6{
+	width: 350px;
+	color:red;
+}
+.div_5{
+	width: 100px;
+}
+#text{
+	text-align: center;
+	width: 27px;
+	outline: none;
+}
+#text_1{
+	text-align: center;
+	width: 27px;
+	outline: none;
+}
+.div_7{
+	width: 100px;
+	color: red;
+	text-align: right;
+}
+.div_8{
+	width: 100px;
+}
+.div_9{
+	color: darkgray;
+	background-color: bisque;
+}
+.div_9 div{
+	float: right;
+}
+#count_1,#qlt_2{
+	color: red;
+	/*font-size: ;*/
+}
+.div_9 input{
+	width: 70px;
+	height: 50px;
+	background-color: red;
+	color: white;
+	border: none;
+	text-align: center;
+}
+.bt{
+	padding: 0px 10px;
+    background-color: red;
+    margin: 0 0px 0 36px;
+    color: white;
+    font-family: "楷体";
+    font-size: 17px;
+    border: none;
+}
+

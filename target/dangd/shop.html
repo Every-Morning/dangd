@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>我的购物车</title>
+		<link  rel="stylesheet" type="text/css" href="css/shop.css">
+	</head>
+	<body>
+		<div>
+			<p id="car">购物车</p>
+			<div id="form">
+				<input type="text" id="seach1" placeholder="唯美" />
+				<input type="button" id="bt1" value="搜索">
+			</div>
+		</div>
+		<div id="_count">
+			<em>全部商品</em>
+			<span id="count"></span>
+			<hr/>
+		</div>
+		<div id="list">
+			<div id="_all">
+				<div id="all">
+					<input type="checkbox" id="checkall" name="box"/>
+				</div>
+				全选
+			</div>
+			<div class="trade">
+				商品
+			</div>
+			<div class="unit">
+				单价
+			</div>
+			<div class="quanlity">
+				数量
+			</div>
+			<div class="quanlity">
+				价格
+			</div>
+			<div class="delete">
+				删除
+			</div>
+		</div>
+		<div>
+			<div class="div_1">
+				<div class="div_2">
+					<input type="checkbox" name="box" id="box1" />	
+				</div>
+				<div class="div_3">
+					<img src="img/22.jpeg" />
+				</div>
+				<div class="div_4">
+					<p>海贼王精彩画集</p>
+				</div>
+				<div class="div_6">
+					<p><strong>¥<em id="qlt">84.50</em></strong></p>
+				</div>
+				<div class="div_5">
+					<ul>
+					<li><button id="subtract" onclick="a()">-</button><li>
+					<li><input type="text"  id="text" value="1"/><li>
+					<li><button id="add" onclick="b()">+</button><li>
+					</ul>
+				</div>
+				<div class="div_7">
+					<p><strong>¥<em id="qlt_unit">84.50</em></strong></p>
+				</div>
+				<div class="div_8">
+					<button class="bt" id="bt_13">删除</button>
+				</div>
+			</div>
+			<div class="div_1">
+				<div class="div_2">
+					<input type="checkbox" name="box" id="box2"/>	
+				</div>
+				<div class="div_3">
+					<img src="img/37.jpg" />
+				</div>
+				<div class="div_4">
+					<p>你的名字精彩画集</p>
+				</div>
+				<div class="div_6">
+					<p><strong>¥<em id="qlt_1">90.00</em></strong></p>
+				</div>
+				<div class="div_5">
+					<ul>
+					<li><button id="subtract_1" onclick="a1()">-</button><li>
+					<li><input type="text"  id="text_1" value="1"/><li>
+					<li><button id="add_1" onclick="b1()">+</button><li>
+					</ul>
+				</div>
+				<div class="div_7">
+					<p><strong>¥<em id="qlt_unit_1">90.00</em></strong></p>
+				</div>
+				<div class="div_8">
+					<button class="bt" id="bt_12">删除</button>
+				</div>
+			</div>
+			<div class="div_9">
+				<div>
+					已选择<strong><em id="count_1">0</em></strong>件商品&nbsp;&nbsp;&nbsp;&nbsp;
+					总计：<strong>¥<em id="qlt_2">0</em></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="button" value="去结算"/>
+				</div>
+			</div>
+		</div>
+		<script src="js/shop.js">
+		</script>
+	</body>
+<html>

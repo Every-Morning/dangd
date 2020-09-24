@@ -1,0 +1,59 @@
+body{
+    font-family: 楷体;
+    background-image: url("../img/back1.jpg");
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+    background-size: 2000px;
+}
+table{
+    height: 430px;
+    width: 370px;
+    border: 1px solid #e2e3e5;
+    margin-left: 68%;
+    margin-top: 7%;
+    background-color: #F0F0F0;
+}
+h5{
+    margin-left: 13%;
+    margin-top: 15px;
+    border-top-width: 10px;
+    margin-bottom: 23px;
+}
+label{
+    font-size: 20px;
+    margin-left: 13%;
+    margin-top: 3%;
+}
+#lab{
+    font-size: 20px;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+.seat{
+    height: 35px;
+    width: 220px;
+}
+#ver{
+    height: 30px;
+    width: 110px;
+}
+#button{
+    height: 45px;
+    width: 264px;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+div{
+    margin-top: 5%;
+    margin-left: 32%;
+}
+a{
+    color: black;
+    font-size: 15px;
+    margin-top: 5%;
+    margin-left: 83%
+}
+a:hover{
+    color: red;
+    text-decoration:none
+}
